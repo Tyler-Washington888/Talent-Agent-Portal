@@ -23,7 +23,7 @@
 
 ## MVP
 
-The Talent-Agent-Portal MVP is a full CRUD, full stack application built in Node.js on the backend using Express, Mongoose and MongoDB. The front end is a single page apllication built using Angular, is fully responsive, and styled using Tailwind CSS. 
+The Talent-Agent-Portal MVP is a full CRUD, full stack application built on the backend using Express, Mongoose and MongoDB. The front end is a single page apllication built using Angular, is fully responsive, and styled using Vanilla CSS. 
 
 <br>
 
