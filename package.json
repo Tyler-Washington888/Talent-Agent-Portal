@@ -1,10 +1,11 @@
 {
   "name": "talent-agent-portal",
   "version": "1.0.0",
-  "description": "- [Overview](#overview) - [MVP](#mvp)   - [Goals](#goals)   - [Libraries and Dependencies](#libraries-and-dependencies)   - [Client (Front End)](#client-front-end)     - [Wireframes](#wireframes)     - [Component Tree](#component-tree)     - [Component Architecture](#component-architecture)     - [Time Estimates](#time-estimates)   - [Server (Back End)](#server-back-end)     - [ERD Model](#erd-model) - [Post-MVP](#post-mvp) - [Code Showcase](#code-showcase) - [Code Issues & Resolutions](#code-issues--resolutions)",
+  "description": "Talent Agent Portal",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server/index.js",
+    "server": "nodemon server/index.js"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,14 @@
   "bugs": {
     "url": "https://github.com/Tyler-Washington888/Talent-Agent-Portal/issues"
   },
-  "homepage": "https://github.com/Tyler-Washington888/Talent-Agent-Portal#readme"
+  "homepage": "https://github.com/Tyler-Washington888/Talent-Agent-Portal#readme",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mongoose": "^7.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
 }
