@@ -2,7 +2,7 @@
   "name": "talent-agent-portal",
   "version": "1.0.0",
   "description": "Talent Agent Portal",
-  "main": "server.js",
+  "main": "index.js",
   "scripts": {
     "start": "node server/index.js",
     "server": "nodemon server/index.js"
@@ -18,12 +18,17 @@
   },
   "homepage": "https://github.com/Tyler-Washington888/Talent-Agent-Portal#readme",
   "dependencies": {
+    "bcryptjs": "^2.4.3",
     "colors": "^1.4.0",
     "dotenv": "^16.0.3",
     "express": "^4.18.2",
-    "mongoose": "^7.0.0"
+    "jsonwebtoken": "^9.0.0",
+    "mysql": "^2.18.1"
   },
   "devDependencies": {
     "nodemon": "^2.0.20"
+  },
+  "engines": {
+    "node": "v18.11.0"
   }
 }
